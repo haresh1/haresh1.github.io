@@ -94,12 +94,28 @@ address {
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
-
+.box {
+width: 200px;
+background: -webkit-linear-gradient(orange, yellow); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(orange, yellow); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(orange, yellow); /* For Firefox 3.6 to 15 */
+background: linear-gradient(orange, yellow); /* Standard syntax (must be last) */
+position:relative;
+padding: 10px;
+top:60px;
+right:50px;
+left:75%;
+border-radius: 5px;
+color:red;
+z-index: 20;
+text-align: center;
+font-size: 1.5em;
+}
 /* Carousel base class */
 .carousel {
   height: 500px;
   width: 100%;  
-  margin-top: 42px;
+  
   margin-bottom: 60px;
 }
 /* Since positioning the image, we need to help out the caption */
