@@ -6,13 +6,17 @@ html {
 }
 body {
   background-image: url("");)
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-size: 18px;
   padding-bottom: 40px;
-  color: #5a5a5a;
+  color: #000;
 }
 .contactno {
   margin-top: 10px;
   color:#cccc99;
 }
+
+
 .container {
   max-width: 1000px;
   margin: 0 auto;
@@ -40,11 +44,12 @@ body {
 
 .footer {
   background-image: url("/images/footer.jpg");)
+  height: 100px;
   
 }
 
-.localaddress {   
-  margin:30px 50px;
+.localaddress {  
+   margin:30px 50px;
   background-color:#ffffff;
   border:1px solid black;
   opacity:0.6;
@@ -75,6 +80,48 @@ background: linear-gradient(#000066, blue); /* Standard syntax (must be last) */
 position:relative;
 }
 
+.welcome {
+  width: 550px;
+  padding-left: 10px;
+  font-size: 18px;
+  color:#ffffff;
+  font-weight: bold;
+  background: -webkit-linear-gradient(left, #660000, #660033); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #660000, #660033); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #660000, #660033); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #660000 , #660033); /* Standard syntax (must be last) */
+}
+
+.ourprojects {
+  width: 200px;
+  background: -webkit-linear-gradient(left, #660000, #660033); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #660000, #660033); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #660000, #660033); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #660000 , #660033); /* Standard syntax (must be last) */
+  padding-left: 10px;
+  font-size: 18px;
+  color:#ffffff;
+  font-weight: bold;
+}
+
+.pastproject {
+  width: 500px;
+  background: #000066;
+  padding-left: 10px;
+  font-size: 18px;
+  color:#ffffff;
+  font-weight: bold;
+}
+
+.comingsoon{
+  width: 250px;
+  background: #000066;
+  padding-left: 10px;
+  font-size: 18px;
+  color:#ffffff;
+  font-weight: bold;
+}
+
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 #company-name {
@@ -86,8 +133,8 @@ position:relative;
   text-align: center;
 }
 
-address {
-  margin-top: 50px;
+address, .footerno  {
+  margin-top: 40px;
   font-weight: bold;
   color:#180000;
 }
@@ -96,7 +143,7 @@ address {
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
   position: absolute;
-  top: 80px;
+  top: 110px;
   right: 0;
   left: 0;
   z-index: 20;
@@ -141,7 +188,7 @@ font-size: 1.5em;
   height: 500px;
   width: 100%;  
   top:-20px;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
