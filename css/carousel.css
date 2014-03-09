@@ -9,19 +9,22 @@ body {
   padding-bottom: 40px;
   color: #5a5a5a;
 }
-
+.contactno {
+  margin-top: 10px;
+  color:#cccc99;
+}
 .container {
   max-width: 1000px;
   margin: 0 auto;
 }
-th {
+ th {
   height:50px;
   background-color:#FF6600;
   color:#fff;
   text-align: center;
  
 }
-table, td 
+ table, td 
 {
   width:100%;
   height:40px;
@@ -41,7 +44,7 @@ a {
   color:#fff;
 }
 
-td:hover {
+ td:hover {
   background-color:#FF6600;
   color: #fff;
 
@@ -53,14 +56,19 @@ td:hover {
 }
 
 header {
-  margin-left: 27px;
+background: -webkit-linear-gradient(#000066, blue); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(#000066, blue); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(#000066, blue); /* For Firefox 3.6 to 15 */
+background: linear-gradient(#000066, blue); /* Standard syntax (must be last) */
+
+position:relative;
 }
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 #company-name {
   font-family: 'Aldrich', sans-serif;
-  margin-top:50px;
+  margin-top:25px;
   color:#ff6600;
   font-weight: bold;
   font-size: 2em;
@@ -75,7 +83,7 @@ address {
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
   position: absolute;
-  top: 110px;
+  top: 80px;
   right: 0;
   left: 0;
   z-index: 20;
@@ -91,7 +99,11 @@ address {
   padding-left: 15px;
 }
 
-
+.call {
+  color:#00008B;
+  font-size: 1em;
+  font-weight: bold;
+}
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 .box {
@@ -102,7 +114,7 @@ background: -moz-linear-gradient(orange, yellow); /* For Firefox 3.6 to 15 */
 background: linear-gradient(orange, yellow); /* Standard syntax (must be last) */
 position:relative;
 padding: 10px;
-top:60px;
+top:50px;
 right:50px;
 left:75%;
 border-radius: 5px;
@@ -115,7 +127,7 @@ font-size: 1.5em;
 .carousel {
   height: 500px;
   width: 100%;  
-  
+  top:-20px;
   margin-bottom: 60px;
 }
 /* Since positioning the image, we need to help out the caption */
