@@ -38,7 +38,18 @@ body {
  }
 
 
+.footer {
+  background-image: url("/images/footer.jpg");)
+  
+}
 
+.localaddress {   
+  margin:30px 50px;
+  background-color:#ffffff;
+  border:1px solid black;
+  opacity:0.6;
+  filter:alpha(opacity=60); /* For IE8 and earlier */
+}
 
 a {
   color:#fff;
@@ -77,6 +88,8 @@ position:relative;
 
 address {
   margin-top: 50px;
+  font-weight: bold;
+  color:#180000;
 }
 
 
