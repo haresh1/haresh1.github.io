@@ -49,11 +49,25 @@ body {
 }
 
 .localaddress {  
-   margin:30px 50px;
+   
   background-color:#ffffff;
   border:1px solid black;
   opacity:0.6;
   filter:alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.floorplan {
+  margin-top: 60px;
+}
+
+.floorplan img:hover {
+  margin-top: 120px;
+   -webkit-transform: scale(1.50);
+  -moz-transform: scale(1.50);
+  position: relative;
+  z-index: 5;
+     
+
 }
 
 a {
@@ -106,6 +120,15 @@ position:relative;
 
 .pastproject {
   width: 500px;
+  background: #000066;
+  padding-left: 10px;
+  font-size: 18px;
+  color:#ffffff;
+  font-weight: bold;
+}
+
+.pastproject1 {
+  width: 610px;
   background: #000066;
   padding-left: 10px;
   font-size: 18px;
