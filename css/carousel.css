@@ -69,6 +69,19 @@ body {
      
 
 }
+.relaxfamily {
+  margin-top:35px;
+  height: 150px;
+}
+
+.homeloan {
+  margin-top:350px;
+}
+
+.ans {
+color:#ff6600;
+}
+
 
 a {
   color:#fff;
@@ -107,6 +120,7 @@ position:relative;
 }
 
 .ourprojects {
+  margin-top:100px;
   width: 200px;
   background: -webkit-linear-gradient(left, #660000, #660033); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(right, #660000, #660033); /* For Opera 11.1 to 12.0 */
