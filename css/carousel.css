@@ -74,14 +74,44 @@ body {
   height: 150px;
 }
 
-.homeloan {
-  margin-top:350px;
+.homeloan{
+  margin-top: 200px;
 }
-
 .ans {
 color:#ff6600;
+font-weight: bold;
 }
 
+ul.point {
+  list-style-type:square;
+  
+}
+.current img {
+  background: #000;
+  padding:10px; 
+  border: 10px solid #8b2A00;
+
+}
+
+.contactadd {
+  margin-top: 100px;
+}
+
+.loan {
+  margin-top:250px;
+  font-weight: bold;
+  color:#fff;
+  background: #000;
+  padding: 10px;
+  border-left: 10px solid #8b2A00;
+  border-bottom: 10px solid #8b2A00;
+  font-size: 2em;
+  text-align: center;
+}
+
+ .loandocuments {
+  margin-top: 120px;
+}
 
 a {
   color:#fff;
@@ -107,8 +137,9 @@ background: linear-gradient(#000066, blue); /* Standard syntax (must be last) */
 position:relative;
 }
 
-.welcome {
+.welcome {  
   width: 550px;
+  margin-top: 50px;
   padding-left: 10px;
   font-size: 18px;
   color:#ffffff;
@@ -120,7 +151,7 @@ position:relative;
 }
 
 .ourprojects {
-  margin-top:100px;
+  margin-top:50px;
   width: 200px;
   background: -webkit-linear-gradient(left, #660000, #660033); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(right, #660000, #660033); /* For Opera 11.1 to 12.0 */
@@ -142,12 +173,23 @@ position:relative;
 }
 
 .pastproject1 {
-  width: 610px;
+  width: 740px;
   background: #000066;
   padding-left: 10px;
   font-size: 18px;
   color:#ffffff;
   font-weight: bold;
+}
+
+.marq {
+  margin-top: 43px;
+  background-color: #800000;
+  color: #fff;  
+  font-weight: bold;
+  font-size: 2em;
+  padding: 5px;
+  border-radius: 5px;
+
 }
 
 .comingsoon{
@@ -220,6 +262,21 @@ z-index: 20;
 text-align: center;
 font-size: 1.5em;
 }
+
+.documents {
+    width: 300px;
+    background: -webkit-linear-gradient(red, yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(red, yellow); /* Standard syntax (must be last) */
+    padding: 10px;
+    font-size: 1em;
+    text-align: center;
+    border-radius: 5px;
+  }
+ .documents a {
+  color:blue;
+ } 
 /* Carousel base class */
 .carousel {
   height: 500px;
