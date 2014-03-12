@@ -13,7 +13,7 @@ body {
 }
 .contactno {
   margin-top: 10px;
-  color:#cccc99;
+  color:#000;
 }
 
 
@@ -56,9 +56,21 @@ body {
   filter:alpha(opacity=60); /* For IE8 and earlier */
 }
 
-.inside, .floorplan {
+ .inside, .floorplan {
   margin-top: 120px;
 }
+
+.plan{
+  margin-top: 50px;
+  width: 200px;
+  background: #000066;
+  padding-left: 10px;
+  font-size: 18px;
+  color:#ffffff;
+  font-weight: bold;
+}
+
+
 
 .floorplan img:hover {
   margin-top: 120px;
@@ -143,10 +155,7 @@ a {
 }
 
 header {
-background: -webkit-linear-gradient(#000066, blue); /* For Safari 5.1 to 6.0 */
-background: -o-linear-gradient(#000066, blue); /* For Opera 11.1 to 12.0 */
-background: -moz-linear-gradient(#000066, blue); /* For Firefox 3.6 to 15 */
-background: linear-gradient(#000066, blue); /* Standard syntax (must be last) */
+
 
 position:relative;
 }
