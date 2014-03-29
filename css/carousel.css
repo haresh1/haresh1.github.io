@@ -5,11 +5,12 @@ html {
   height: 100%;
 }
 body {
-  background-image: url("");)
+  background-image: url("");  
   font-family: Verdana, Helvetica, Arial, sans-serif;
   font-size: 18px;
   padding-bottom: 40px;
   color: #000;
+  height: 100%;
 }
 .contactno {
   margin-top: 10px;
@@ -68,7 +69,7 @@ hr {
 
 
 .footer {
-  background-image: url("/images/footer.jpg");)
+  background-image: url("/images/footer.jpg");
   margin:0;
   left:0;
   right:0;
