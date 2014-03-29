@@ -15,11 +15,35 @@ body {
   margin-top: 10px;
   color:#000;
 }
-
+.bhk {
+ text-align: center;
+ font-weight: bold;
+}
 
 .container {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
+}
+
+.gap {
+  margin-top:60px;
+}
+
+hr {
+ color: #AB8D3F;
+ background-color: #AB8D3F;
+ height: 2px;
+ margin-top: 5px;
+ margin-bottom: 5px;
+
+}
+
+#patil-group{
+  margin:10px;
+   padding:0; overflow:hidden; 
+   width:100%; height:100%;
+   border:2px solid transparent;
+
 }
  th {
   width: 300px;
@@ -161,9 +185,10 @@ a {
 }
 
 header {
-
-
+background-color: #ffffcc;
 position:relative;
+margin-top: 50px
+
 }
 
 .welcome {  
@@ -241,13 +266,28 @@ position:relative;
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
-#company-name {
+.logo {
+  margin-top: 17px;
+}
+
+h1{
+  
+  margin-top: 50px;
   font-family: 'Aldrich', sans-serif;
-  margin-top:25px;
-  color:#ff6600;
-  font-weight: bold;
-  font-size: 2em;
-  text-align: center;
+  color:#AB8D3F;
+  font-weight: bold; 
+  margin-bottom: 0;
+  line-height: .75px;
+}
+
+h3 {
+  margin-top: 0; 
+  font-family: 'Aldrich', sans-serif;
+  color:#665E5E;
+  font-weight: bold; 
+  line-height: 1.2px;
+  margin-bottom: 0;
+  
 }
 
 address, .footerno  {
@@ -260,7 +300,7 @@ address, .footerno  {
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
   position: absolute;
-  top: 110px;
+  top: 0px;
   right: 0;
   left: 0;
   z-index: 20;
